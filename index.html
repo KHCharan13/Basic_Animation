@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css"/>
+        <!-- the below lines are for fonts from google fonts--> 
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Comfortaa:wght@700&family=Pacifico&display=swap" rel="stylesheet">  
+
+        <title>Slider Animation</title>
+    </head>
+    <body>
+        <main>
+            <section class="landing">
+                <nav>
+                    <h1 id="logo">Dusk</h1>
+                    <ul class="nav-links">
+                    <li>Home</li>
+                    <li>Content</li>
+                    <li>Review</li>
+                    </ul>
+                </nav>
+                <h2 class="big-text">Stay Young</h2>
+            </section>
+        </main>
+<!-- these are the ones that are used as the opening animation and the class hide is hidden after the animation-->
+        <div class="intro">
+            <div class="intro-text">
+                <h1 class="hide">
+                    <span class="text">Creating Inovation</span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text">for everyday</span>
+                </h1>
+                <h1 class="hide">
+                    <span class="text">people.</span>
+                </h1>   
+            </div>
+        </div>
+        <!-- this is for the slider animation that comes after the text is displayed -->
+        <div class="slider"></div> 
+
+
+
+
+
+
+        <!-- here lie the Gsap animation library and the JS link-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" 
+        integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+        <script src="./app.js"></script>
+    </body>
+</html>
